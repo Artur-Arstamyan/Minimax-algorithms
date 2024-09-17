@@ -126,3 +126,31 @@ for k in range(steps):
     print(f'Best move is to put {board[i][j]} in board[{i}][{j}] cell')
     print(board)
     print()
+
+##  Output
+'''
+Best move is to put o in board[0][0] cell
+[['o' '-' '-']
+ ['x' 'o' 'x']
+ ['-' '-' '-']]
+
+Best move is to put x in board[2][2] cell
+[['o' '-' '-']
+ ['x' 'o' 'x']
+ ['-' '-' 'x']]
+
+Best move is to put o in board[0][2] cell
+[['o' '-' 'o']
+ ['x' 'o' 'x']
+ ['-' '-' 'x']]
+
+Best move is to put x in board[0][1] cell
+[['o' 'x' 'o']
+ ['x' 'o' 'x']
+ ['-' '-' 'x']]
+
+Best move is to put o in board[2][0] cell
+[['o' 'x' 'o']
+ ['x' 'o' 'x']
+ ['o' '-' 'x']]
+ '''
